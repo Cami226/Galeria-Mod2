@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Galería de Imágenes</title>
+    <link rel="stylesheet" href="assets/css/styles.css" />
+   
+  </head>
+  <body>
+    <h1>Galería de Imágenes</h1>
+    <div class="galeria">
+      <img src="assets/img/4.jfif" class="miniatura" data-index="0" alt="Imagen 1" />
+      <img src="assets/img/3.jfif" class="miniatura" data-index="1" alt="Imagen 2" />
+      <img src="assets/img/1.jpg" class="miniatura" data-index="2" alt="Imagen 3" />
+      <img src="assets/img/2.jpg" class="miniatura" data-index="3" alt="Imagen 4" />
+    </div>
+
+    <!-- Modal -->
+    <div class="modal" id="modal" style="display: none;">
+      <span class="cerrar">&times;</span>
+      <img class="imagen-modal" id="imagen-modal" src="assets/img/1.jpg" alt="Imagen grande" />
+      <button class="anterior">⟨</button>
+      <button class="siguiente">⟩</button>
+    </div>
+
+
+     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>
